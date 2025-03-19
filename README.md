@@ -1,1 +1,1 @@
-# parse-news
+Парсинг первой новости с сайта https://www.pgups.ru/news
