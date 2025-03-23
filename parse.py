@@ -60,6 +60,7 @@ def parse_news(url):
         # Картинка в бинарном формате
         image_data = requests.get(image_url).content
 
+        # Скачивание картинки
         with open(image_name, 'wb') as file:
             file.write(image_data)
         
